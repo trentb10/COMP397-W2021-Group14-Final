@@ -12,6 +12,7 @@ TagManager:
   - Security
   - PlayerPos
   - InventoryPanel
+  - gameComplete
   layers:
   - Default
   - TransparentFX
