@@ -44,9 +44,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         InventoryItemBase item = e.Item;
 
-        health = healthBar.MaxHealth;
-
-        
+        health = healthBar.MaxHealth;      
     }
 
     void Update()
@@ -117,5 +115,10 @@ public class PlayerBehaviour : MonoBehaviour
             inventory.AddItem(item);
            // Destroy(this.gameObject);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
     }
 }
